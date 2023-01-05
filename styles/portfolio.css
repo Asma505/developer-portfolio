@@ -132,8 +132,9 @@ section {
     font-weight: 400;
     font-size: 18px;
     color: #757575;
-    text-align: center;    
+    text-align: center;
 }
+
 .section-description3 {
     font-weight: 400;
     font-size: 18px;
@@ -170,6 +171,46 @@ skill {
 
 
 /* Resume Styles */
-.resume{
+.resume {
     margin-bottom: 113px;
+}
+
+.resume-content {
+    display: flex;
+    gap: 24px;
+}
+
+.resume-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+
+.title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+}
+
+.sub-title {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+}
+
+.description {
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+hr{
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 21px;
+    text-align: center;
 }
