@@ -128,13 +128,6 @@ section {
     text-align: center;
 }
 
-.section-description {
-    font-weight: 400;
-    font-size: 18px;
-    color: #757575;
-    text-align: center;
-}
-
 .section-description3 {
     font-weight: 400;
     font-size: 18px;
@@ -207,10 +200,46 @@ skill {
     font-size: 16px;
     color: #757575;
 }
-hr{
+
+hr {
     margin-bottom: 30px;
 }
-.resume-button{
+
+.resume-button {
     margin-top: 21px;
     text-align: center;
+}
+
+/* Contact Styles */
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+}
+
+.contact .section-title {
+    text-align: left;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 21px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact a {
+    text-decoration: none;
+    padding-right: 25px;       
+}
+
+.contact .section-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    text-align: left;
 }
